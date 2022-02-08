@@ -16,3 +16,8 @@ function deleteLast() {
         container.innerHTML = container.innerHTML.slice(0, -1);
     }
 }
+
+function allClear() {
+    let container = document.getElementById('resultArea');
+    container.innerHTML = "";
+}
